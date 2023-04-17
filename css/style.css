@@ -237,7 +237,14 @@ border:0px;
 }
 .transprant-bg.blue:after {
 	background-color: rgba(85, 172, 238, 0.7);
+
 }
+.notice .container{
+	background-color:wheat;
+	
+
+}
+
 .transprant-bg .container {
 	z-index: 3;
 	position: relative;
