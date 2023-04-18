@@ -822,6 +822,7 @@ border-radius: 50%;
 .filters .nav-pills > li + li {
 	margin-left: 0px;
 }
+
 .text-center.filters .nav-pills > li {
 	margin-right: 2px;
 	margin-left: 2px;
@@ -829,6 +830,7 @@ border-radius: 50%;
 	display: inline-block;
 	float: none;
 }
+
 .isotope-container {
 	overflow: hidden;
 }
