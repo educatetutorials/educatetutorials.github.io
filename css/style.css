@@ -275,6 +275,13 @@ button.cta-button:hover{
 background:#fff;
 color:#000;
 }
+
+.contacts > a{
+	color: white;
+}
+.contacts{
+	color:white;
+}
 /* Misc
 ----------------------------------------------------------------------------- */
 .no-view {
@@ -351,12 +358,7 @@ text-align:center;
 /* Buttons
 ---------------------------------- */
 /*  notice          */
-.notice-btn{
 
-
-
-	
-}
 #btncolor{
 	background:white;
 }
