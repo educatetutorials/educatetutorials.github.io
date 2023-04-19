@@ -125,7 +125,7 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	color: #fff;
+	color: #fcf7f7;
 }
 .banner-image {
 	vertical-align: middle;
@@ -350,6 +350,13 @@ text-align:center;
 ----------------------------------------------------------------------------- */
 /* Buttons
 ---------------------------------- */
+/*  notice          */
+.notice-btn{
+
+
+
+	
+}
 #btncolor{
 	background:white;
 }
@@ -374,7 +381,7 @@ text-align:center;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #0078B6;
+	background-color: #4ad121;
 	border: 0;
 }
 .media-left, .media > .pull-left {
