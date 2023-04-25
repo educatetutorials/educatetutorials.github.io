@@ -406,6 +406,7 @@ text-align:center;
 	-o-border-radius: 0;
 	border-radius: 0;
 	width: 100%;
+	text-align: center;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border: 1px solid #f0f0f0;
@@ -539,7 +540,7 @@ padding: 10px 0;
 	border: none;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
-	padding: 10px 20px;
+	padding: 9px 17px;
 	color: #949494;  font-weight: 700;  font-size: 16px;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
