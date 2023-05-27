@@ -251,7 +251,7 @@ border:0px;
 }
 
 
-/*   notice btn  
+/*   notice btn  */
 
 .notice-btn > li.active > a,
 .notice-btn > li.active > a:hover,
@@ -262,23 +262,43 @@ border:0px;
 	color: #ffffff;
 }
 .notice-btn > li > a {
-	border-radius: 0px;
+	border-radius: 0;
 	padding: 8px 20px;
 	border: 1px solid #cacaca;
 	color: #666666;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 300;	
+	
+}
+
+.ali-center {
+	margin: 0 0 30px 0;
+}
+.ali-center .notice-btn > li {
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.ali-center .notice-btn > li + li {
+	margin-left: 0px;
+}
+
+.text-center.ali-center .notice-btn > li {
 	margin-right: 2px;
 	margin-left: 2px;
 	margin-bottom: 2px;
 	display: inline-block;
-	
-
+	float: none;
+}
+@media (max-width:480px) {
+	.ali-center .notice-btn > li {
+		width: 100%;
+		display: block;
+	}
 }
 
 
- notice end  */
+ /* notice end  */
 
 
 
