@@ -243,6 +243,7 @@ border:0px;
 
 #btncolor{
 	background:white;
+	border-radius: 12px;
 }
 .notice .container{
 	background-color:wheat;
@@ -262,7 +263,7 @@ border:0px;
 	color: #ffffff;
 }
 .notice-btn > li > a {
-	border-radius: 0;
+	border-radius: 12px;
 	padding: 8px 20px;
 	border: 1px solid #cacaca;
 	color: #666666;
