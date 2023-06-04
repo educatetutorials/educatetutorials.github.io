@@ -474,7 +474,13 @@ text-align:center;
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border: 1px solid #f0f0f0;
 	border-top: none;
-	background-color: #FCFCFC;}
+	background-color: #FCFCFC;
+
+}
+
+	
+
+	
 .panel-heading a {
 	font-weight: 400;
 	padding: 12px 35px 12px 15px;
