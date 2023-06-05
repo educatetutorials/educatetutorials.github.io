@@ -109,6 +109,7 @@ blockquote {
 
 /* Layout
 ----------------------------------------------------------------------------- */
+
 .header {
 	color: #020202;
 	background-color: rgba(255, 255, 255, 1);
@@ -472,9 +473,9 @@ text-align:center;
 	text-align: center;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border: 1px solid #f0f0f0;
+	border: 1px solid #9cb7ffe1;
 	border-top: none;
-	background-color: #FCFCFC;
+	background-color: #fcfcfc;
 
 }
 
@@ -780,8 +781,10 @@ padding: 10px 0;
 	.fixed-header-on .brand,
 	.fixed-header-on .site-slogan {
 		display: none;
+		
 	}
 }
+
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
@@ -806,7 +809,7 @@ padding: 10px 0;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	padding: 10px 0;
+	padding: 13px 0;
 }
 .brand a {
 	color: #0A94DB;
