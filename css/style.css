@@ -810,13 +810,19 @@ padding: 10px 0;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	padding: 13px 0;
+	
 }
+@import url('https://fonts.cdnfonts.com/css/heather');
 .brand a {
 	color: #0A94DB;
 	font-weight: 600;
+	font-family: 'Heather';
+
 }
 .brand a:hover {
 	text-decoration: none;
+	
+	
 }
 .site-slogan {
 	font-size: 12px;
