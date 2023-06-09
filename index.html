@@ -18,20 +18,25 @@
 		<link href="css/custom.css" rel="stylesheet">
 		<link rel="icon" href="images/logo.png" type="image/x-icon">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+		<link rel="stylesheet" type="text/css" href="pop.css">
 	</head>
 
 	<body class="no-trans">
+		
+						
 		<a href="https://wa.me/918983524882"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
 		<!-- scrollToTop --> 
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
+
 		<!-- header start --> 
 		<header class="header fixed clearfix navbar navbar-fixed-top">
+		
 			<div class="container">
 				
-				<div class="row">
+			<div class="row">
 					<div class="col-md-4">
+
 
 						<!-- header-left start --> 
 						<div class="header-left">
@@ -40,8 +45,8 @@
 							<div class="logo smooth-scroll">
 								<a href="#banner"><img id="logo" src="images/logo2.png" alt="EDUCATE TUTORIALS"></a>
 							</div>
-
-							<!-- name-and-slogan -->
+						
+					<!-- name-and-slogan -->
 							<div class="logo-section smooth-scroll">
 								<div class="brand"><a href="#banner">EDUCATE TUTORIALS</a></div>								
 							</div>
@@ -100,8 +105,50 @@
 				</div>
 			
 			</div>
+				<!-- popup window-->
+		
+		<div class="popup">
+			<div class="contentBox">
+				<div class="close"></div>
+				<div class="imgBx">
+					<img src="images/edu.png">
+				</div>
+				<div class="content">
+					<div>
+						<p>Admissions Started For 2023-24</p>
+					<h3>Get Upto</h3>
+					<h2>25<sup>%</sup><span>Discount</span></h2>
+					<p>Hurry Up and Confirm Your Seat....</p>
+					
+					</div>
+					
+		
+				</div>
+		
+			</div>
+		
+		</div>
+	
+
+		<!-- Automatic show pop after 2 sec of load site-->
+		<script>
+			const popup = document.querySelector('.popup');
+			const close = document.querySelector('.close');
+		
+			window.onload = function(){
+				setTimeout(function(){
+					popup.style.display = "block"
+				},2000)
+			}
+			close.addEventListener('click', () => {
+				popup.style.display = "none";
+			})
+		</script>
+
+				<!--popup end-->
 		</header>
 		<!-- header end -->
+
 
 		<!-- banner start --> 
 		<div id="banner" class="banner">
@@ -574,16 +621,16 @@
 				<h1 class="text-center title" id="notice" >Notice</h1>
 				<div class="ali-center text-center">
 				<div >
-				<ul class="nav notice-btn">
+					<ul class="nav notice-btn">
 					
-					<li id="btncolor"><a href="https://drive.google.com/file/d/1XizPly9WS6-SLjQdFwbAjmOkAGwSd5U2/view?usp=share_link">Primary</a></li>
-					<li id="btncolor"><a href="#" >Secondary</a></li>
-					<li id="btncolor"><a href="#" > College Section</a></li>
-					<li id="btncolor"><a href="#" >CBSE</a></li>
-					<li id="btncolor"><a href="#" >For New Admissions</a></li>
-					<li id="btncolor"><a href="#" >Vacancy</a></li>
-					
-					</ul>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1Cje5PsEfwb7RmQqOY6MYJnKOua8RxGip/view?usp=sharing">Primary</a></li>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1xc9IF4juKHn0_vym3il_MO0qO6b5uaIT/view?usp=sharing" >Secondary</a></li>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1cUNg8Zmh_C-13bcFv-MVCWlPQO04F00_/view?usp=sharing" > College Section</a></li>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1uRGyXyE7_wpJ-0JT8Wsq4TVj_vL8Tw9y/view?usp=sharing" >CBSE</a></li>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1eNtfNKUEGUlRNyWNQg0YAGdOGsIIAsd3/view?usp=sharing" >For New Admissions</a></li>
+						<li id="btncolor"><a href="https://drive.google.com/file/d/1DRpg7aJ75MI-ZebkLs-5Lhs0B-RLa6Ru/view?usp=sharing" >Vacancy</a></li>
+						
+						</ul>
 			
 		</div>
 				</div>
@@ -749,7 +796,8 @@
 
 	    </footer>
 		<!-- footer end -->
-
+				
+						
 		<!-- JavaScript --> 
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -760,6 +808,7 @@
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+
        
 	</body>
 </html>
