@@ -1045,7 +1045,7 @@ display:none;
 .contentBox
 {
 position: relative;
-width: 600px;
+width: 615px;
 height: 400px;
 background:#9dc1f0;
 border-radius: 20px;
@@ -1148,7 +1148,7 @@ align-items: center;
 {
     .contentBox
     {
-        width: 300px;
+        width: 318px;
         height: auto;
         flex-direction: column;
 
@@ -1157,7 +1157,7 @@ align-items: center;
     .contentBox .imgBx
     {
         height: 260px;
-        transform: translate(-7.5px);
+        transform: translate(3px);
 
     }
 
@@ -1165,7 +1165,7 @@ align-items: center;
     {
         height: auto;
         text-align: center;
-        padding: 17px;
+        padding: 16px;
         padding-top: 0;
 
     }
@@ -1181,8 +1181,9 @@ align-items: center;
     }
 	.contentBox .content p
 {
-    font-weight: 350;
-	font-size: 1.5em;
+    font-weight: 345;
+	font-size: 1.6em;
+	padding: 2px 2px;
 }
 
 
@@ -1190,7 +1191,7 @@ align-items: center;
 {
     color: #333;
     line-height: 1em;
-    font-weight: 300;
+    font-weight: 310;
     font-size: 1.8em;
      margin-left:-170px;
 }
