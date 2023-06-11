@@ -1171,8 +1171,8 @@ align-items: center;
     }
     .close
     {
-        top: -50px;
-        right: -10px;
+        top: 5px;
+        right: 5px;
         background: #f3f3f3 url(close.png);
         background-repeat: no-repeat;
         background-size: 10px;
@@ -1278,13 +1278,13 @@ align-items: center;
     transition: all 0.3s ease 0s;
 }
 .our-team .social ul li a:hover{
-    background: #fff;
-    color: #f3904d;
+    background:#f5f7f8;
+    color:#54478a;
 }
 .our-team .team-content{
     padding: 20px 0;
     background: #f5f7f8;
-    color: #54478a;
+    color: #4d43aa;
 }
 .our-team .title{
     display: block;
