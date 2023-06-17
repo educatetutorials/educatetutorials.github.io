@@ -1279,7 +1279,8 @@ align-items: center;
 }
 .our-team .social ul li a:hover{
     background:#f5f7f8;
-    color:#54478a;
+    color:#3b20a4;
+	text-decoration: none;
 }
 .our-team .team-content{
     padding: 20px 0;
