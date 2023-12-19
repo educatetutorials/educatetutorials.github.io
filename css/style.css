@@ -1034,7 +1034,7 @@ border-radius: 50%;
   /* pop up window */
 
 
-.popup
+/* .popup
 {
 position: fixed;
 top: 50%;
@@ -1141,7 +1141,7 @@ align-items: center;
    cursor: pointer;
    border-radius: 50%;
    z-index: 10;
-}
+} */
 
 /* responsive */
 @media (max-width : 767px)
